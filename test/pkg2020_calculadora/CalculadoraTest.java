@@ -12,13 +12,13 @@ import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
 @RunWith(Parameterized.class)
-public class CalculadoraTestParameters {
+public class CalculadoraTest {
 
     private int nume1;
     private int nume2;
     private int resul;
 
-    public CalculadoraTestParameters(int nume1, int nume2, int resul) {
+    public CalculadoraTest(int nume1, int nume2, int resul) {
         this.nume1 = nume1;
         this.nume2 = nume2;
         this.resul = resul; //resultado de la operación
